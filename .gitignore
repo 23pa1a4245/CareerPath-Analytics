@@ -31,3 +31,5 @@ app_backup_before_upgrade.py
 
 # Streamlit secrets
 .streamlit/secrets.toml
+# Local backup of application
+app_backup_before_upgrade.py
