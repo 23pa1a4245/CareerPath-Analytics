@@ -1,0 +1,33 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Dataset backups and expanded copies
+hr_data_original_backup.csv
+hr_data_expanded.csv
+hr_data_expanded_backup.csv
+
+# Generated model files
+models/*.joblib
+models/*.csv
+models/model_metrics.json
+
+# Temporary files
+*.log
+.DS_Store
+# Local dataset and backup files
+hr_data.csv
+app_backup_before_upgrade.py
+
+# Streamlit secrets
+.streamlit/secrets.toml
